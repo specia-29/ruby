@@ -1,13 +1,9 @@
-count = 0
-for i in 7..7777777
-  if i % 7 == 0
-    count += i.to_s.count('7')
-  end
-end
-puts count
+puts "三角形の直角辺の長さを入力してください"
+a = gets.chomp.to_f
 
+puts "もう一方の直角辺の長さを入力してください"
+b = gets.chomp.to_f
 
-N = 3
-if N >= 1 && N <= 100
-  puts "#{N}は1以上100以下の数字です"
-end
+c = Math.sqrt(a**2 + b**2)
+
+puts "斜辺の長さは#{c}です"
