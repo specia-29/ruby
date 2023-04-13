@@ -1,10 +1,10 @@
 def fizz_buzz
   for i in 1..100
-    if i % 63 == 0
+    if i % 15 == 0
       puts "FizzBuzz!"
-    elsif i % 7 == 0
+    elsif i % 3 == 0
       puts "Fizz!"
-    elsif i % 9 == 0
+    elsif i % 5 == 0
       puts "Buzz!"
     else
       puts i
